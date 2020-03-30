@@ -1,11 +1,12 @@
 ;; shadow-cljs configuration
 {:source-paths
- ["src"]
+ ["src"
+  "tw"]
 
  :dependencies
- [[reagent "0.8.1"]
-  [org.clojure/core.async "0.4.500"]
-  [com.taoensso/timbre "4.10.0"]
+ [[reagent "LATEST"]
+  [org.clojure/core.async "LATEST"]
+  [com.taoensso/timbre "LATEST"]
   ]
 
  :dev-http {8080 "target/"}

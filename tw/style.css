@@ -3,9 +3,11 @@
 
 @tailwind components;
 .input-box {
-    @apply m-2 p-1 border-2 w-1/3
+    @apply m-2 p-2 border-2 flex justify-center
 }
-
+.card {
+    @apply m-2 p-2 border-2 flex justify-center bg-white 
+}
 .btn-blue {
     @apply bg-blue-800 text-white m-2 p-2 rounded-full
 }

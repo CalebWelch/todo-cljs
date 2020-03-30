@@ -629,9 +629,23 @@ video {
 
 .input-box {
   margin: 0.5rem;
-  padding: 0.25rem;
+  padding: 0.5rem;
   border-width: 2px;
-  width: 33.333333%
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-width: 2px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  background-color: #fff
 }
 
 .btn-blue {
